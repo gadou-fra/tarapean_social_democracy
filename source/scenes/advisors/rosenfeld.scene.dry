@@ -1,36 +1,36 @@
-title: Kurt Rosenfeld
+title: Jeno Miel
 is-pinned-card: true
 tags: advisor, left
 card-image: img/portraits/RosenfeldKurt.jpg
 view-if: rosenfeld_advisor = 1
 new-page: true 
 
-= Kurt Rosenfeld
+= Jeno Miel
 
-Rosenfeld works as a lawyer in Berlin who defends left-wing individuals and causes. He favors cooperation with the KPD and a path of class struggle for the SPD.
+Jeno Miel is a left-wing tribune. He is known for his fiery speeches against the economic establishment, and has distanced himself from the right-wing of the party.
 
 - @building_the_left
-- @kpd_cooperation
+- @fg_cooperation
 - @against_toleration
 - @root: Return to main
 
 @building_the_left
 title: Building the Left
-subtitle: Push the SPD to the left.
+subtitle: Push the SD to the left.
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
 choose-if: advisor_action_timer = 0
 on-arrival: advisor_action_timer = 6; left_strength += 6; left_dissent -= 8; reformist_dissent += 2
 
-We have increased the strength of the left faction with the SPD.
+We have increased the strength of the left faction with the SD.
 
-@kpd_cooperation
-title: Cooperation with the KPD
-subtitle: Push the party to be more friendly towards the KPD.
+@fg_cooperation
+title: Cooperation with the FG
+subtitle: Push the party to be more friendly towards the FG.
 unavailable-subtitle: [? if advisor_action_timer > 0 : [+ advisor_action_timer +] months before next advisor action. ?]
 choose-if: advisor_action_timer = 0
 on-arrival: advisor_action_timer = 6; left_strength += 5; kpd_relation += 4*(1-dissent); reformist_dissent += 2; communist_coalition += 1 if kpd_cooperation_seen <= 1; kpd_cooperation_seen += 1
 
-Through his work, Rosenfeld has defended individual KPD members; this should make some connections possible.
+Jeno Miel's radical style has made him appear friendly to the FG.
 
 @against_toleration
 title: Against toleration
