@@ -1,19 +1,19 @@
-title: Theodor Leipart
+title: Luka Bertani
 is-pinned-card: true
 tags: advisor, labor
 card-image: img/portraits/LeipartTheodor.jpg
 view-if: leipart_advisor = 1
 new-page: true 
 
-= Theodor Leipart
+= Luka Bertani
 
-Leipart is a leader of the ADGB, the largest federation of socialist trade unions.
+Bertani is a leader of the CTT, one of the largest federation of socialist trade unions.
 
 - @organizing
 - @depression
 - @root: Return to main
 
-# leipart was one of the people who argued for union independence
+# bertani was one of the people who argued for union independence
 #- @union_unity
 
 @organizing
